@@ -7,23 +7,24 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      // backgroundImage: {
+      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      //   'gradient-conic':
+      //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      // },
       colors: {
-        "brown": "rgb(216, 125, 74)",
-        "light-brown": "rgb(251, 175, 133)",
-        "black": "rgb(16, 16, 16)",
-        "light-black": "rgb(0, 0, 0)",
-        "pure-white": "rgb(255, 255, 255)",
-        "light-white": "rgb(250, 250, 250)",
-        "deep-white": "rgb(241, 241, 241)",
+        "light-black" : "rgb(16, 16, 16)",
+        "deep-black" : "rgb(0, 0, 0)",
+        "deep-brown" : "rgb(216, 125, 74)",
+        "light-brown" : "rgb(251, 175, 133)",
+        "deep-white" : "rgb(241, 241, 241)",
+        "light-white" : "rgb(250, 250, 250)",
+        "pure-white" : "rgb(255, 255, 255)",
       },
       fontFamily: {
-        abc: ["Manrope"]
-      },
+        "manrope": "Manrope"
+      }
+      
     },
   },
   plugins: [],
