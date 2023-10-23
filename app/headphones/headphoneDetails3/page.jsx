@@ -1,9 +1,6 @@
 import HeadPhoneDetailFirstSection from '@components/HeadPhoneDetailFirstSEction.jsx'
 import HeadPhoneDetail_3FSecondSection from '@components/HeadPhoneDetail_3FSecondSection'
 import HeadPhoneDetail_3FirstSection from '@components/HeadPhoneDetail_3FirstSection'
-import HeadPhoneDetail_3ThirdSection from '@components/HeadPhoneDetail_3ThirdSection'
-import React from 'react'
-// import HeadPhoneDetailSeventhSection from '@components/HeadPhoneDetailSeventhSection'
 import HeadPhoneDetailEighthSection from '@components/HeadPhoneDetailEighthSection'
 import SecondSectionB from '@components/SecondSectionB'
 import SecondSectionC from '@components/SecondSectionC'
@@ -13,6 +10,7 @@ import EightSectionA from '@components/EightSectionA'
 import SecondSectionA from '@components/SecondSectionA'
 import HeadPhoneDetailFifthSection from '@components/HeadPhoneDetailFifthSection'
 import HeadPhoneDetailSixthSection from '@components/HeadPhoneDetailSixthSection'
+import HeadPhoneDetail_3ThirdSection from '@components/HeadPhoneDetail_3ThirdSection'
 
 
 function page() {
