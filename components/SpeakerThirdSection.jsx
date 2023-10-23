@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 
 function SpeakerThirdSection() {
@@ -11,13 +13,13 @@ function SpeakerThirdSection() {
         </div>
         <div className='lg:ml-6'>
             <div className='mt-8'>
-                <h2 className='font-thin my-2 text-xl pb-3 text-center lg:text-start text-deep-black'>ZX9<br/> SPEAKERS</h2>
+                <h2 className='font-thin my-2 text-xl pb-3 text-center lg:text-start text-deep-black'>ZX7<br/> SPEAKERS</h2>
             </div>
             <div className='mx-10 md:mx-40 text-center  lg:text-start lg:mx-0 lg:max-w-[380px]'>
                 <p className='text-gray-600 text-deep-white text-sm text-base lg:text-start'>Stream high quality sound wirelessly with minimal loss.The ZX9 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.</p>
             </div>
             <div className='mt-5 text-center lg:text-start' >
-                <button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button>
+                <Link href="speakers/speakerDetail2"><button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button></Link>
             </div>
         </div>
     </div>

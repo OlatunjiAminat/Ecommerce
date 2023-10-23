@@ -1,18 +1,19 @@
-import HeadPhoneDetailFifthSection from '@components/HeadPhoneDetailFifthSection'
 import HeadPhoneDetailFirstSection from '@components/HeadPhoneDetailFirstSEction.jsx'
-import HeadPhoneDetailFourthSection from '@components/HeadPhoneDetailFourthSection'
-import HeadPhoneDetailSecondSection from '@components/HeadPhoneDetailSecondSection'
-import HeadPhoneDetailSixthSection from '@components/HeadPhoneDetailSixthSection'
-import HeadPhoneDetailThirdSection from '@components/HeadPhoneDetailThirdSection'
+import SpeakerDetail_1FirstSection from '@components/SpeakerDetail_1FirstSection'
+import SpeakerDetail_1SecondSection from '@components/SpeakerDetail_1SecondSection'
+import SpeakerDetail_1ThirdSection from '@components/SpeakerDetail_1ThirdSection'
 import React from 'react'
+import HeadPhoneDetailFifthSection from '@components/HeadPhoneDetailFifthSection'
 import HeadPhoneDetailSeventhSection from '@components/HeadPhoneDetailSeventhSection'
-import HeadPhoneDetailEighthSection from '@components/HeadPhoneDetailEighthSection'
-import SecondSectionA from '@/components/SecondSectionA'
+// import HeadPhoneDetailEighthSection from '@components/HeadPhoneDetailEighthSection'
 import SecondSectionB from '@components/SecondSectionB'
 import SecondSectionC from '@components/SecondSectionC'
-// import SixthSection from '@components/SixthSection'
 import LastSectionA from '@components/LastSectionA'
 import LastSectionB from '@components/LastSectionB'
+// import EightSectionA from '@components/EightSectionA'
+import SecondSectionA from '@components/SecondSectionA'
+import EightSectionB from '@components/EightSectionB'
+import HeadPhoneDetailSixthSection from '@components/HeadPhoneDetailSixthSection'
 
 
 function page() {
@@ -21,31 +22,30 @@ function page() {
         <div>
             <HeadPhoneDetailFirstSection />
         </div>
-
         <div>
-            <HeadPhoneDetailSecondSection />
+            <SpeakerDetail_1FirstSection />
         </div>
         <div>
-            <HeadPhoneDetailThirdSection />
+            <SpeakerDetail_1SecondSection />
         </div>
         <div>
-            <HeadPhoneDetailFourthSection />
+            <SpeakerDetail_1ThirdSection />
         </div>
         <div>
             <HeadPhoneDetailFifthSection />
         </div>
-        <div className='md:flex justify-center items-center md:mx-16 xl:justify-start'>
+        <div className='mt-6 md:flex justify-center items-center md:mx-16 xl:justify-start'>
+            <div>
+                <EightSectionB />
+            </div>
             <div>
                 <HeadPhoneDetailSixthSection />
             </div>
             <div>
                 <HeadPhoneDetailSeventhSection />
             </div>
-            <div>
-                <HeadPhoneDetailEighthSection />
-            </div>
         </div>
-        <div className='mt-16 mb-16 md:flex justify-start items-center md:mx-20 '>
+        <div className='mt-10 mb-16 md:flex justify-start items-center md:mx-20 '>
             <div className='md:w-[200px] lg:w-[330px]'>
                 <SecondSectionA />
             </div>

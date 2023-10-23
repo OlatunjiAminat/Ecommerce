@@ -1,18 +1,18 @@
-import HeadPhoneDetailFifthSection from '@components/HeadPhoneDetailFifthSection'
 import HeadPhoneDetailFirstSection from '@components/HeadPhoneDetailFirstSEction.jsx'
-import HeadPhoneDetailFourthSection from '@components/HeadPhoneDetailFourthSection'
-import HeadPhoneDetailSecondSection from '@components/HeadPhoneDetailSecondSection'
-import HeadPhoneDetailSixthSection from '@components/HeadPhoneDetailSixthSection'
-import HeadPhoneDetailThirdSection from '@components/HeadPhoneDetailThirdSection'
+import HeadPhoneDetail_3FSecondSection from '@components/HeadPhoneDetail_3FSecondSection'
+import HeadPhoneDetail_3FirstSection from '@components/HeadPhoneDetail_3FirstSection'
+import HeadPhoneDetail_3ThirdSection from '@components/HeadPhoneDetail_3ThirdSection'
 import React from 'react'
-import HeadPhoneDetailSeventhSection from '@components/HeadPhoneDetailSeventhSection'
+// import HeadPhoneDetailSeventhSection from '@components/HeadPhoneDetailSeventhSection'
 import HeadPhoneDetailEighthSection from '@components/HeadPhoneDetailEighthSection'
-import SecondSectionA from '@/components/SecondSectionA'
 import SecondSectionB from '@components/SecondSectionB'
 import SecondSectionC from '@components/SecondSectionC'
-// import SixthSection from '@components/SixthSection'
 import LastSectionA from '@components/LastSectionA'
 import LastSectionB from '@components/LastSectionB'
+import EightSectionA from '@components/EightSectionA'
+import SecondSectionA from '@components/SecondSectionA'
+import HeadPhoneDetailFifthSection from '@components/HeadPhoneDetailFifthSection'
+import HeadPhoneDetailSixthSection from '@components/HeadPhoneDetailSixthSection'
 
 
 function page() {
@@ -21,31 +21,30 @@ function page() {
         <div>
             <HeadPhoneDetailFirstSection />
         </div>
-
         <div>
-            <HeadPhoneDetailSecondSection />
+            <HeadPhoneDetail_3FirstSection />
         </div>
         <div>
-            <HeadPhoneDetailThirdSection />
+            <HeadPhoneDetail_3FSecondSection />
         </div>
         <div>
-            <HeadPhoneDetailFourthSection />
+           <HeadPhoneDetail_3ThirdSection />
         </div>
         <div>
             <HeadPhoneDetailFifthSection />
         </div>
-        <div className='md:flex justify-center items-center md:mx-16 xl:justify-start'>
+        <div className='mt-6 md:flex justify-center items-center md:mx-16 xl:justify-start'>
             <div>
-                <HeadPhoneDetailSixthSection />
+                <EightSectionA />
             </div>
             <div>
-                <HeadPhoneDetailSeventhSection />
+                <HeadPhoneDetailSixthSection />
             </div>
             <div>
                 <HeadPhoneDetailEighthSection />
             </div>
         </div>
-        <div className='mt-16 mb-16 md:flex justify-start items-center md:mx-20 '>
+        <div className='mt-10 mb-16 md:flex justify-start items-center md:mx-20 '>
             <div className='md:w-[200px] lg:w-[330px]'>
                 <SecondSectionA />
             </div>
@@ -64,7 +63,9 @@ function page() {
                 <LastSectionB />
             </div>
         </div>
+
     </div>
+    
   )
 }
 

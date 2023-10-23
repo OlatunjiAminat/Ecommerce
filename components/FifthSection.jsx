@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 
 function FifthSection() {
@@ -10,7 +12,7 @@ function FifthSection() {
         </div>
         <div className='bg-deep-white rounded-lg py-10 mt-4 md:pr-32 md:w-[50%] md:h-[320px] mx-auto md:ml-2 lg:h-[360px] xl:h-[365px] '>
             <h1 className='text-xl pl-6 pb-5 lg:text-start pt-16'>YX1 EARPHONES</h1>
-            <button className='ml-6 px-4 py-2 text-[10px] border-black border mt-3 lg:px-4'>SEE PRODUCT</button>
+            <Link href="/earphones"><button className='ml-6 px-4 py-2 text-[10px] border-black border hover:bg-black hover:text-white mt-3 lg:px-4'>SEE PRODUCT</button></Link>
         </div>
     </div>
   )

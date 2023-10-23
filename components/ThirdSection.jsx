@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 
 function ThirdSection() {
@@ -16,7 +18,7 @@ function ThirdSection() {
                 <p className='text-xs max-w-[250px] text-center text-gray-200 lg:text-lg lg:text-start '>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
             </div>
             <div className='flex justify-center items-center '>
-                <button className='text-xs mt-5 mb-10 text-white bg-deep-black px-4 py-2 hover:bg-gray-500'>SEE PRODUCT</button>
+            <Link href="/speakers"><button className='text-xs mt-5 mb-10 text-white bg-deep-black px-4 py-2 hover:bg-gray-500'>SEE PRODUCT</button></Link>
             </div>
 
         </div>

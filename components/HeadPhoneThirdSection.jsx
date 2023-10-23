@@ -18,7 +18,7 @@ function HeadPhoneThirdSection() {
                 <p className='text-gray-600 text-deep-white text-sm text-base lg:text-start'>As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophile, mixing engineers,and music aficionados alike in studios and on the go.</p>
             </div>
             <div className='mt-5 text-center lg:text-start' >
-                <Link href="#"><button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button></Link>
+                <Link href="/headphones/headphoneDetails2"><button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button></Link>
             </div>
         </div>
     </div>

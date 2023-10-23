@@ -18,7 +18,7 @@ function HeadPhoneFourthSection() {
                 <p className='text-gray-600 text-deep-white text-sm text-base lg:text-start lg:max-w-[380px]'>The new XX99 Mark II is the pinnacle of prinstine audio.It redefines your premium headphones experience by reproducing the balanced depth and precision of studio quality sound.</p>
             </div>
             <div className='mt-5 text-center lg:text-start' >
-                <Link href="#"><button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button></Link>
+                <Link href="/headphones/headphoneDetails3"><button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button></Link>
             </div>
         </div>
     </div>

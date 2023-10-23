@@ -116,7 +116,7 @@
 
 import React from 'react'
 // import NavBar from '../components/NavBar'
-import FirstSection from '../components/firstSection'
+import FirstSection from '../components/FirstSection'
 import SecondSectionA from '../components/SecondSectionA'
 import SecondSectionB from '@components/SecondSectionB'
 import SecondSectionC from '@components/SecondSectionC'

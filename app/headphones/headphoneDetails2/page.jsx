@@ -1,18 +1,19 @@
-import HeadPhoneDetailFifthSection from '@components/HeadPhoneDetailFifthSection'
 import HeadPhoneDetailFirstSection from '@components/HeadPhoneDetailFirstSEction.jsx'
-import HeadPhoneDetailFourthSection from '@components/HeadPhoneDetailFourthSection'
-import HeadPhoneDetailSecondSection from '@components/HeadPhoneDetailSecondSection'
-import HeadPhoneDetailSixthSection from '@components/HeadPhoneDetailSixthSection'
-import HeadPhoneDetailThirdSection from '@components/HeadPhoneDetailThirdSection'
+import HeadPhoneDetail_2FirstSection from '@components/HeadPhoneDetail_2FirstSection'
+import HeadPhoneDetail_2SecondSection from '@components/HeadPhoneDetail_2SecondSection'
+import HeadPhoneDetail_2ThirdSection from '@components/HeadPhoneDetail_2ThirdSection'
 import React from 'react'
+import HeadPhoneDetailFifthSection from '@components/HeadPhoneDetailFifthSection'
 import HeadPhoneDetailSeventhSection from '@components/HeadPhoneDetailSeventhSection'
 import HeadPhoneDetailEighthSection from '@components/HeadPhoneDetailEighthSection'
-import SecondSectionA from '@/components/SecondSectionA'
 import SecondSectionB from '@components/SecondSectionB'
 import SecondSectionC from '@components/SecondSectionC'
-// import SixthSection from '@components/SixthSection'
 import LastSectionA from '@components/LastSectionA'
 import LastSectionB from '@components/LastSectionB'
+import EightSectionA from '@components/EightSectionA'
+import SecondSectionA from '@components/SecondSectionA'
+
+
 
 
 function page() {
@@ -21,22 +22,21 @@ function page() {
         <div>
             <HeadPhoneDetailFirstSection />
         </div>
-
         <div>
-            <HeadPhoneDetailSecondSection />
+            <HeadPhoneDetail_2FirstSection />
         </div>
         <div>
-            <HeadPhoneDetailThirdSection />
+            <HeadPhoneDetail_2SecondSection/>
         </div>
         <div>
-            <HeadPhoneDetailFourthSection />
+            <HeadPhoneDetail_2ThirdSection />
         </div>
         <div>
             <HeadPhoneDetailFifthSection />
         </div>
         <div className='md:flex justify-center items-center md:mx-16 xl:justify-start'>
             <div>
-                <HeadPhoneDetailSixthSection />
+                <EightSectionA />
             </div>
             <div>
                 <HeadPhoneDetailSeventhSection />
@@ -64,7 +64,11 @@ function page() {
                 <LastSectionB />
             </div>
         </div>
+
+
     </div>
+
+    
   )
 }
 

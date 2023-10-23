@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 function EarphoneSecondSection() {
@@ -20,7 +21,7 @@ function EarphoneSecondSection() {
                     <p className='text-gray-600 text-deep-white text-sm text-base lg:text-start lg:max-w-[380px]'>Tailor your listening experience with bespoke dynamic driver from the new YX1 wireless earphones.Enjoy incredible high-fidelity sound even in noisy environment with its active noise cancellation feature.</p>
                 </div>
                 <div className='mt-5 text-center lg:text-start' >
-                    <button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button>
+                <Link href="earphones/earphoneDetail"><button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button></Link>
                 </div>
             </div>
         </div>

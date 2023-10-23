@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 
 function SpeakerSecondSection() {
@@ -20,7 +22,7 @@ function SpeakerSecondSection() {
                     <p className='text-gray-600 text-deep-white text-sm text-base lg:text-start lg:max-w-[380px]'>Upgrade your sound system with all the new ZX9 active speaker.It's a bookshelf speaker system that offers truly wireless connectivity-creating new possibilities for more pleasing and practical audio setups.</p>
                 </div>
                 <div className='mt-5 text-center lg:text-start' >
-                    <button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button>
+                    <Link href="speakers/speakerDetail1"><button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown mb-10'>SEE PRODUCT</button></Link>
                 </div>
             </div>
         </div>

@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 function HeadPhoneDetailFirstSection() {
   return (
-    <div className='mt-7'>
+    <div className='mx-10 mb-2 mt-7 md:mb-7 md:mx-20 lg:mx-22 xl:mx-32 lg:mt-10 lg:mb-4'>
         <div className='text-gray-600'>
-            <Link href="#" className='ml-8'>Go Back</Link>
+            <Link href="/" className=''>Go Back</Link>
         </div>
     </div>
   )

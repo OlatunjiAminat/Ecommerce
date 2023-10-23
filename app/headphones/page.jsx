@@ -7,6 +7,8 @@ import HeadPhoneFourthSection from '@components/HeadPhoneFourthSection'
 import HeadPhoneSecondSection from '@components/HeadPhoneSecondSection'
 import HeadPhoneThirdSection from '@components/HeadPhoneThirdSection'
 import React from 'react'
+import LastSectionA from '@components/LastSectionA'
+import LastSectionB from '@components/LastSectionB'
 
 function page() {
   return (
@@ -35,8 +37,16 @@ function page() {
             <SecondSectionC />
           </div>
         </div>
-        <div className='my-32'>
+        {/* <div className='my-32'>
           <SixthSection />
+        </div> */}
+        <div className='mb-16 lg:flex justify-start xl:flex justify-start'>
+            <div className='order-2'>
+                <LastSectionA/>
+            </div>
+            <div>
+                <LastSectionB />
+            </div>
         </div>
     </div>
   )

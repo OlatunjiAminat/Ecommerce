@@ -16,16 +16,16 @@ function Footer() {
                 </div>
                 <div className='text-xs font-thin text-white text-center md:flex justify-start items-center lg:pt-8'>
                     <div className='hover:text-deep-brown mb-4 md:mr-7'>
-                        <Link href="#">HOME</Link>
+                        <Link href="/">HOME</Link>
                     </div>
                     <div className='hover:text-deep-brown mb-4 md:mr-7'>
-                        <Link href="#">HEADPHONES</Link>
+                        <Link href="/headphones">HEADPHONES</Link>
                     </div>
                     <div className='hover:text-deep-brown mb-4 md:mr-7'>
-                        <Link href="#">SPEAKERS</Link>
+                        <Link href="/speakers">SPEAKERS</Link>
                     </div>
                     <div className='hover:text-deep-brown mb-4'>
-                        <Link href="#">EARPHONES</Link>
+                        <Link href="/earphones">EARPHONES</Link>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ function Footer() {
             </div>
             <div className='md:flex justify-between items-center'>
                 <div className='text-gray-400 text-center px-4 text-sm my-7 md:pl-0'>
-                    <p>Copyright 2023. All Right Reserve</p>
+                    <p>Copyright 2023. All Rights Reserved</p>
                 </div>
                 <div className='flex justify-center items-center pb-8 md:pb-1 md:pt-0 lg:mt-[-100px]'>
                     <div className=''>

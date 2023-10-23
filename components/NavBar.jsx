@@ -4,14 +4,18 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image'; // Import the Image component
+import { useRouter } from "next/navigation";
 
 
 function NavBar(){ 
+   
+    // const currentRoute = router.pathname;
     const [showHamburger, setShowHamburger] = useState(false);
   
     const toggleHamburger = () => {
       setShowHamburger(!showHamburger);
     };
+    const router = useRouter()
     return (
       <>
           <nav className="bg-deep-black text-white py-4 lg:pt-10">
@@ -34,15 +38,14 @@ function NavBar(){
             </div>
               
               <div className={`text-xs ml-10 md:ml-24  lg:flex justify-around items-center lg:mt-3 lg:ml-2 ${showHamburger ? 'block' : 'hidden'}`}>
-                  {/* <div className="pl-24 hidden md:block  md:ml-0">
-                      <Image src="/audiophile.png" alt="logo"  width={90} height={10} loading="lazy" className=" md:ml-0" />
-                  </div> */}
                     <div className="lg:flex justify-around items-center lg:mt-[-45px] md:ml-10 lg:ml-20">
-                        <div className="focus:text-deep-brown hover:text-deep-brown mt-3 md:mt-4 lg:mt-0 lg:mr-4 xl:mr-12">
-                            <Link href="/" className="active:text-deep-brown">HOME</Link>
+                        <div className=" mt-3 md:mt-4 lg:mt-0 lg:mr-4 xl:mr-12">
+                            <Link href="/" className={`${router.pathname === '/' ? 'text-deep-brown' : ''
+                        }`} >HOME</Link>
                         </div>
-                        <div className="hover:text-deep-brown lg:mr-4  xl:mr-12">
-                            <Link href="/headphones" className="active:text-deep-brown">HEADPHONES</Link>
+                        <div className="lg:mr-4  xl:mr-12">
+                            <Link href="/headphones" className={`${router.pathname === '/headphones' ? 'text-deep-brown' : ''
+                        }`} >HEADPHONES</Link>
                         </div>
                         <div className="hover:text-deep-brown  lg:mr-4  xl:mr-12">
                             <Link href="/speakers">SPEAKERS</Link>
