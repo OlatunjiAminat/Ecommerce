@@ -33,7 +33,7 @@ function NavBar(){
                 </div>
               
               <div className="">
-                <Image src="/cart1.png" alt="cart-logo"  width={20} height={20} loading="lazy" className="" />
+                <Link href="/cart"><Image src="/cart1.png" alt="cart-logo"  width={20} height={20} loading="lazy" className="" /></Link>
               </div>
             </div>
               

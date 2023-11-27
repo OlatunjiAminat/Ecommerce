@@ -1,6 +1,7 @@
 import NavBar from '@components/NavBar'
 import './globals.css'
 import Footer from '@components/Footer'
+import ShopContextProvider from './context/ShopContextProvider'
 // import { Inter } from 'next/font/google'
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -12,12 +13,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className='font-manrope'>
-      <body className='max-w-[1340px] mx-auto font-manrope'>
-        <NavBar />
-        {children}
-        <Footer />
-        </body>
-    </html>
+    <ShopContextProvider>
+        <html lang="en" className='font-manrope'>
+          <body className='max-w-[1340px] mx-auto font-manrope'>
+            <NavBar />
+            {children}
+            <Footer />
+          </body>
+        </html>
+    </ShopContextProvider>
   )
 }

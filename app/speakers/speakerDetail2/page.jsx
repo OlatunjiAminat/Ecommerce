@@ -2,7 +2,6 @@ import HeadPhoneDetailFirstSection from '@components/HeadPhoneDetailFirstSEction
 import SpeakerDetail_2FirstSection from '@components/SpeakerDetail_2FirstSection'
 import SpeakerDetail_2SecondSection from '@components/SpeakerDetail_2SecondSection'
 import SpeakerDetail_2ThirdSection from '@components/SpeakerDetail_2ThirdSection'
-import React from 'react'
 import SecondSectionB from '@components/SecondSectionB'
 import SecondSectionC from '@components/SecondSectionC'
 import LastSectionA from '@components/LastSectionA'

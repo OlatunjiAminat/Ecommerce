@@ -23,7 +23,7 @@ function SpeakerDetail_2FirstSection() {
                 </div>
                 <div className='flex justify-start items-center mb-16' >
                     <div className='bg-gray-600 max-w-[70px] mr-2'>
-                        <button className='pl-3 py-1 hover:bg-light-brown'>-<button className='px-2 hover:bg-light-brown'>1<button className='pl-2 hover:bg-light-brown'>+</button></button></button>
+                        <button className='px-2 hover:bg-light-brown'>-</button><input type="text" placeholder="1" className='pl-2 max-w-[20px] bg-gray-600 placeholder-black hover:bg-light-brown' /><button className='px-2 hover:bg-light-brown'>+</button>
                     </div>
                     <div>
                         <Link href="#"><button className='bg-deep-brown px-3 py-2 text-white text-xs lg:py-3 lg:px-4 hover:bg-light-brown'>ADD TO CART</button></Link>

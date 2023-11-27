@@ -10,7 +10,6 @@ import HeadPhoneDetailEighthSection from '@components/HeadPhoneDetailEighthSecti
 import SecondSectionA from '@/components/SecondSectionA'
 import SecondSectionB from '@components/SecondSectionB'
 import SecondSectionC from '@components/SecondSectionC'
-// import SixthSection from '@components/SixthSection'
 import LastSectionA from '@components/LastSectionA'
 import LastSectionB from '@components/LastSectionB'
 

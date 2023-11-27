@@ -37,9 +37,6 @@ function page() {
             <SecondSectionC />
           </div>
         </div>
-        {/* <div className='my-32'>
-          <SixthSection />
-        </div> */}
         <div className='mb-16 lg:flex justify-start xl:flex justify-start'>
             <div className='order-2'>
                 <LastSectionA/>

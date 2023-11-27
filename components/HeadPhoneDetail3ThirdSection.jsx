@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 
 
-function HeadPhoneDetail_3ThirdSection() {
+function HeadPhoneDetail3ThirdSection() {
   return (
     <div className='mx-7 md:mx-20 lg:mx-16 lg:mt-10 xl:mx-24'>
         <div className='md:flex justify-start'>
@@ -22,4 +22,4 @@ function HeadPhoneDetail_3ThirdSection() {
   )
 }
 
-export default HeadPhoneDetail_3ThirdSection
+export default HeadPhoneDetail3ThirdSection

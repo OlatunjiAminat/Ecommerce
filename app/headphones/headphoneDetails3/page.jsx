@@ -10,7 +10,8 @@ import EightSectionA from '@components/EightSectionA'
 import SecondSectionA from '@components/SecondSectionA'
 import HeadPhoneDetailFifthSection from '@components/HeadPhoneDetailFifthSection'
 import HeadPhoneDetailSixthSection from '@components/HeadPhoneDetailSixthSection'
-// import HeadPhoneDetail_3ThirdSection from '@components/HeadPhoneDetail_3ThirdSection'
+import HeadPhoneDetail3ThirdSection from '@components/HeadPhoneDetail3ThirdSection'
+
 
 
 function page() {
@@ -25,9 +26,9 @@ function page() {
         <div>
             <HeadPhoneDetail_3FSecondSection />
         </div>
-        {/* <div>
-           <HeadPhoneDetail_3ThirdSection />
-        </div> */}
+        <div>
+           <HeadPhoneDetail3ThirdSection />
+        </div>
         <div>
             <HeadPhoneDetailFifthSection />
         </div>
